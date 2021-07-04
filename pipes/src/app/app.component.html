@@ -1,0 +1,78 @@
+
+
+<h1 class="mt-3"> Pipes <small>Angular</small> </h1>
+<hr>
+
+<div class="row">
+  <div class="col-12">
+
+
+    <table class="w-100">
+
+      <thead class="table table-dark">
+
+        <tr>
+          <th>Variable</th>
+          <th>Pipe</th>
+          <th>salida</th>
+        </tr>
+      </thead>
+
+        <tbody>
+          <tr>
+            <td>{{nombre}}</td>
+            <td>uppercase</td>
+            <td>{{nombre | uppercase}}</td>
+          </tr>
+
+          <tr>
+            <td>{{nombre}}</td>
+            <td>lowercase</td>
+            <td>{{nombre | lowercase}}</td>
+          </tr>
+
+          <tr>
+            <td>{{nombre}}</td>
+            <td> slice:3</td>
+            <td>{{nombre | slice:3}}</td>
+          </tr>
+
+          <tr>
+            <td>arreglo</td>
+            <td> slice:0:3</td>
+            <td>{{arreglo | slice:0:3}}</td>
+          </tr>
+          
+
+          <tr>
+            <td>{{PI}}</td>
+            <td>number</td>
+            <td>{{PI | number:'1.0-2'}}</td>
+          </tr>
+
+
+          <tr>
+            <td>{{PI}}</td>
+            <td>number</td>
+            <td>{{PI | number:'.0-2'}}</td>
+          </tr>
+
+          <tr>
+            <td>{{porcentaje}}</td>
+            <td>percent</td>
+            <td>{{porcentaje | percent}}</td>
+          </tr>
+
+
+
+        </tbody>
+
+
+      
+
+    </table>
+
+
+  </div>
+
+</div>
